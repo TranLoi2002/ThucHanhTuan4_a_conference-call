@@ -1,0 +1,86 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.wrapper .container .center {
+    display:flex;
+    width: 907px;
+    border-right:1.7px solid rgb(241, 242, 245);
+}
+
+.wrapper .container .right {
+    width: 443px;
+}
+
+.wrapper .container .left {
+    width: 73px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right:1.7px solid rgb(241, 242, 245);
+}
+
+.wrapper .container .left .left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .container .left .below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 7px;
+}
+
+.wrapper .container .left .left_above .item {
+    width: 32px;
+    margin-top: 40px;
+    padding-right: 7px;
+    padding-bottom:9px ;
+    
+}
+.wrapper .container .left .left_above .itemt {
+    width: 52px;
+    margin-top: 20px;
+    padding-right: 7px;
+}
+.wrapper .container .left .below .setting {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.wrapper .container .right .right_end{
+    display:flex;
+    width: 400px;
+    position: absolute;
+    margin-top: 305px;
+    border-top:2px solid rgb(241, 242, 245);
+}
+.wrapper .container .center .container1{
+    display: flex;
+    height: 100px;
+    width: 907px;
+    justify-content: center;
+    gap:520px;
+    align-items: center;
+}
+.wrapper .container .center .container1 h1{
+    display: flex;
+    padding-right: 50px;
+}
+.wrapper .container .center .container1 p{
+    padding-right:70px;
+}
+
+
